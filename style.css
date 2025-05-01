@@ -1,224 +1,213 @@
-.memoir{
-   
-    margin-top: 0%;
-    position: relative;
-   
-
-    h1{
-        font-size: 500%;
-        color: royalblue;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-
-    }
-   
+@font-face {
+    font-family: poppins;
+    src: url(Fonts/Poppins-Regular.ttf);
 }
 body{
-    
-    background-size: cover;
+    font-family: poppins;
+    padding: 5%;
+}
+#background_image{
+    height: 90vh;
+    width: 80vw;
+    opacity: 0.1;
+    margin-left: 7vw;
+    margin-top: 5vh;
+}
+#welcome{
+    margin-left: 10vw;
+position: relative;
+}
+.welcome{
+    border: none;
+    background-color: #192A56;
+    width: 80vw;
     height: 100vh;
-    width: 100vw;
-    background-color:rgb(192, 241, 217) ;
-     overflow-x: hidden;
+    display: flex;
+    border: none;
+    margin-left: 7vw;
+    margin-top: -100vh;
+    gap: 6vw;
+    border-radius: 20px 20px 0px 0px;
 
+
+}
+.welcome img{
+    position: relative;
+    width: 80vw;
+    height: 80vh;
+    margin-top: 10vh;
+
+}
+HR{
+    position: relative;
+    margin-top: 2vh;
+    width: 20vw;
+    margin-left: 5vw;
+}
+.born_a_crime{
+    position: relative;
+    width: 40%;
+    color: white;
+    padding:3vw;
+    
+}
+.born_a_crime_book img{
+    position: relative;
+    width: 30vw;
+    margin-top: 13vh;
+    border-radius: 20px;
+}
+#discover{
+    margin-top: 10vh;
+}
+h1{
+    margin-top: 8vh;
+    font-size: 5em;
+}
+#order_now {
+    background-color: rgb(233, 184, 22);
+    color: white;
+    padding: 3% 2%;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10vh;
+
+}
+.icons{
+    margin-top: 5vh;
+    display: flex;
+    gap: 2vw;
+}
+#open_book{
+    border: none;
+    background-color: rgb(233, 184, 22);
+    padding: 8%;
+    border-radius: 50px;
+    
+}
+.info{
+    display: flex;
+    gap: 1vw;
 }
 .vl{
-    height: 700px;
-    border-left: 3px solid black;
-    margin-top: 5%;
-    left: 50%;
+    height: 4vh;
+    border-left: 2px dotted rgb(243, 243, 243);
+    margin-top: 2vh;
 }
-#explanation{
-    color:navy;
-    font-size: 150%;
+#trusted{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-
+    margin-top: 5vh;
+    font-size: 2em;
 }
-#trevorpic{
-  width: 400px;
-  height: 400px;
-  padding-left: 600px;
-  
+.trusted_by_best{
+    border: none;
+    background-color: rgb(212, 230, 230);
+    width: 76vw;
+    margin-left: 7vw;
+    padding:2vw;
+    border-radius: 0px 0px 20px 20px;
 }
-.society{
-    width: 45%;
-    height: 90vh;
-    overflow: scroll;
-}
-.society::-webkit-scrollbar{
-    display: none;
-}
-.blog{
+.logos{
     display: flex;
-    gap: 2cm;
-    
+    gap: 5vw;
+    margin-left: 10vh;
 }
-.protestimage{
-    margin-left: 100px;
+.logos img{
+    width: 10vw;
+    height: 10vh;
+    margin-left: 1vw;
 }
-#abel{
-    color:navy;
-    font-size: 150%;
-    text-align: left;
-    margin-left: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-   
+.ibook img{
+    width: 5vw;
+    margin-left: 3vw;
 }
-#femicidepicture{
-    width: 600px;
-    height: 800px;
-    margin-top: 30px;
-
+.rename{
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 7vw;
+    gap: 14vw;
 
 }
-@media only screen and  (max-width:800px){
-    .memoir{
-     margin-top: 0%;
-        position: relative;
-
-        h1{
-            font-size: 300%;
-            color: royalblue;
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-       
-    }
-    body{
-        
-        background-size: cover;
-        height: 100vh;
-        width: 100vw;
-        background-color:rgb(192, 241, 217) ;
-        
-         overflow-x: hidden;
-    
-    }
-    .vl{
-        height: 700px;
-        border-left: 3px solid black;
-        margin-top: 5%;
-        left: 50%;
-    }
-    #explanation{
-        color:navy;
-        font-size: 130%;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    #trevorpic{
-      width: 200px;
-      height: 200px;
-      padding-left: 250px;
-      
-    }
-    .society{
-        width: 35%;
-        height: 90vh;
-        overflow: scroll;
-    }
-    .society::-webkit-scrollbar{
-        display: none;
-    }
-    .blog{
-        display: flex;
-        gap: 2cm;   
-    }
-    .protestimage{
-        margin-left: 10px;
-    }
-    #abel{
-        color:navy;
-        font-size: 130%;
-        text-align: left;
-        margin-left: 50px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    #femicidepicture{
-        width: 300px;
-        height: 500px;
-        margin-top: 30px;
-    
-    }
+.pictures{
+    display: inline-block;
     
 }
-@media only screen and  (max-width:400px){
-    .memoir{
-   
-        margin-top: 0%;
-        position: relative;
-       
+.slideshow{
+    animation: fade 15s infinite forwards;
+    position: relative;
+
+}
+.slideshow:nth-child(1) { 
+   animation-delay: 0s; 
+  }
+  .slideshow:nth-child(2) { 
+    animation-delay: 5s; 
+  }
+  .slideshow:nth-child(3) { 
+    animation-delay: 10s;
+  }
+  @keyframes fade {
+    0% { 
+      opacity: 0; 
+    }
+    10% { 
+      opacity: 1; 
+    }
+    20% { 
+      opacity: 1;
+     }
+    30% { 
+      opacity: 0; 
+    }
+    100% { 
+      opacity: 0;
+     }
+    }
+
+.slideshow img{
+    width: 50vw;
+    border-radius: 20px;
+}
+.text{
+    width: 45vw;
+    margin-top: 15vh;
+    color: #192A56;
+    font-size: 2em;
+}
+#mandela{
+    position: relative;
+    margin-left: 20vh;
+}
+.review{
+    display: flex;
+    gap: 5vw;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+.book_review{
+    width: 40vw;
+}
+.about_book{
+    border: none;
+    background-color: #192A56;
+    width: 80vw;
+    height: 20vh;
+    display: flex;
+    border: none;
+    margin-left: 7vw;
+ margin-top: -20vh;
+    gap: 6vw;
     
-        h1{
-            font-size: 200%;
-            color: royalblue;
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-    
-        }
-       
-    }
-    body{
-        
-        background-size: cover;
-        height: 100vh;
-        width: 100vw;
-        background-color:rgb(192, 241, 217) ;
-         overflow-x: hidden;
-    
-    }
-    .vl{
-        height: 500px;
-        border-left: 2px solid black;
-        margin-top: 5%;
-        left: 30%;
-    }
-    #explanation{
-        color:navy;
-        font-size: 60%;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    
-    }
-    #trevorpic{
-      width: 100px;
-      height: 100px;
-      padding-left: 100px;
-      
-    }
-    .society{
-        width: 40%;
-        height: 90vh;
-        overflow: scroll;
-    }
-    .society::-webkit-scrollbar{
-        display: none;
-    }
-    .blog{
-        /* display: block; */
-        display: flex;
-        gap: 2cm;
-        
-    }
-    .protestimage{
-        margin-left: 1px;
-    }
-    #abel{
-        color:navy;
-        font-size: 70%;
-        text-align: left;
-        margin-left: 2px;
-        font-family: Arial, Helvetica, sans-serif;
-       
-    }
-    #femicidepicture{
-        width: 100px;
-        height: 200px;
-        /* margin-top: -60%; */
-        margin-left: 30px;
-        
-    
-    }
-   
+}
+#background_image_book{
+    height: 20vh;
+    width: 80vw;
+    opacity: 0.1;
+    margin-left: 7vw;
+  top: 5vh;
+}
+.about_book img{
+    margin-left: 75vw;
 }
