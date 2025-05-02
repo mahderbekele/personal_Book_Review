@@ -136,7 +136,7 @@ body {
   color: #EEBBC3;
   text-decoration: none;
   font-size: 1.2em;
-  transition: background 0.2s, color 0.2s;
+  transition:  0.2s, color 0.2s;
   border-left: 4px solid transparent;
   margin-bottom: 8px;
 }
@@ -350,6 +350,37 @@ details>p {
 
 .social-links a .fa-linkedin {
   color: #0077b5;
+}
+footer{
+  border: none;
+  width: 100vw;
+  background-color:  #232946;
+  margin-top: 10vh;
+  padding: 5% 5% 1% 5%;
+  margin-bottom: -7vh;
+}
+footer p{
+  margin-left: 30vw;
+  color: white;
+  margin-top: 5vh;
+}
+.comment input{
+padding:1vw;
+margin-left: 2vw;
+width: 30vw;
+}
+.comment{
+  color: white;
+  margin-left: 15vw;
+}
+
+button{
+margin-left: 20vw;
+margin-top: 5vh;
+padding: 1vw 2vw;
+background-color: rgb(255, 190, 69);
+border-radius: 15px;
+cursor: pointer;
 }
 
 @media only screen and (max-width:750px) {

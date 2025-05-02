@@ -298,8 +298,11 @@ spam{
         font-size: 2em;
     }
 
-    .content {
-        margin-left: 2vh;
+    .content{
+   
+        margin-left: 5vw;
+        width: 80vw;
+     
     }
 
     #family {
@@ -352,6 +355,7 @@ spam{
     #author {
         display: flex;
         flex-direction: column;
+        box-shadow: none;
     }
 
     .display-left {
@@ -372,7 +376,8 @@ spam{
     }
 
     .image img {
-        width: 60vw;
+        width: 60vw;box-shadow: none;
+
     }
 
     #know_orthodox {
@@ -424,7 +429,7 @@ spam{
     }
     .content {
         margin-top: 25vh;
-        margin-left: -79vw;
+        margin-left: -59vw;
     }
 
     #family_text {

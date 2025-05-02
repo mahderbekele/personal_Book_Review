@@ -4,28 +4,36 @@
 }
 body{
     font-family: poppins;
-    padding: 5%;
+    margin-top: -0% ;
+    overflow-x: hidden;
+   
+}
+.container{
+    position: relative;
+    border: none;
+    background-color: antiquewhite;
+    margin-top: -5vh;
+  
+
 }
 #background_image{
+    position: relative;
     height: 90vh;
-    width: 80vw;
+    width: 100vw;
     opacity: 0.1;
-    margin-left: 7vw;
     margin-top: 5vh;
 }
 #welcome{
-    margin-left: 10vw;
 position: relative;
 }
 .welcome{
     border: none;
     background-color: #192A56;
-    width: 80vw;
+    width: 99vw;
     height: 100vh;
     display: flex;
     border: none;
-    margin-left: 7vw;
-    margin-top: -100vh;
+    margin-top: -90vh;
     gap: 6vw;
     border-radius: 20px 20px 0px 0px;
 
@@ -49,6 +57,7 @@ HR{
     width: 40%;
     color: white;
     padding:3vw;
+    margin-left: 5vw;
     
 }
 .born_a_crime_book img{
@@ -104,24 +113,45 @@ h1{
 .trusted_by_best{
     border: none;
     background-color: rgb(212, 230, 230);
-    width: 76vw;
-    margin-left: 7vw;
+    width: 94.9vw;
     padding:2vw;
     border-radius: 0px 0px 20px 20px;
 }
 .logos{
     display: flex;
     gap: 5vw;
-    margin-left: 10vh;
+    margin-left: 28vh;
 }
 .logos img{
-    width: 10vw;
-    height: 10vh;
-    margin-left: 1vw;
+    width: 5vw;
+    height: 5vh;
+    margin-left: 3vw;
 }
 .ibook img{
-    width: 5vw;
+    width: 3vw;
     margin-left: 3vw;
+}
+.author{
+    display: flex;
+    gap: 15vw;
+    margin-left: 9vw;
+    margin-top: 10vh;
+
+
+}
+.author img{
+    width: 30vw;
+    border-radius: 20px;
+}
+
+.trevor{
+    width: 30vw;
+    margin-top: 20vh;
+    font-size: 1.5em;
+}
+hr{
+    width: 25vw;
+    margin-left: -0.5vw;
 }
 .rename{
     display: flex;
@@ -130,45 +160,18 @@ h1{
     gap: 14vw;
 
 }
+#book_r{
+    margin-left: 20vw;
+}
 .pictures{
-    display: inline-block;
+    border: black 5px;
+    padding:5vw;
     
 }
-.slideshow{
-    animation: fade 15s infinite forwards;
-    position: relative;
-
-}
-.slideshow:nth-child(1) { 
-   animation-delay: 0s; 
-  }
-  .slideshow:nth-child(2) { 
-    animation-delay: 5s; 
-  }
-  .slideshow:nth-child(3) { 
-    animation-delay: 10s;
-  }
-  @keyframes fade {
-    0% { 
-      opacity: 0; 
-    }
-    10% { 
-      opacity: 1; 
-    }
-    20% { 
-      opacity: 1;
-     }
-    30% { 
-      opacity: 0; 
-    }
-    100% { 
-      opacity: 0;
-     }
-    }
-
-.slideshow img{
-    width: 50vw;
+.pictures img{
     border-radius: 20px;
+    width: 17vw;
+    z-index: 1;
 }
 .text{
     width: 45vw;
@@ -185,6 +188,7 @@ h1{
     gap: 5vw;
     margin-top: 15vh;
     margin-bottom: 10vh;
+    margin-left: 7vw;
 }
 .book_review{
     width: 40vw;
@@ -192,22 +196,255 @@ h1{
 .about_book{
     border: none;
     background-color: #192A56;
-    width: 80vw;
+    width: 100vw;
     height: 20vh;
     display: flex;
     border: none;
-    margin-left: 7vw;
+    /* margin-left: 7vw; */
  margin-top: -20vh;
-    gap: 6vw;
+    gap: 1vw;
     
+}
+.about_book img{
+width: 50vw;
 }
 #background_image_book{
     height: 20vh;
-    width: 80vw;
+    width: 100vw;
     opacity: 0.1;
-    margin-left: 7vw;
   top: 5vh;
 }
-.about_book img{
-    margin-left: 75vw;
+#page{
+    margin-left: 20vw;
+}
+#peak{
+    color: white;
+    margin-left: 30vw;
+    width: 50vw;
+    font-size: 3em;
+
+}
+.books{
+    display: flex;
+    margin-left: 30vw;
+    gap: 10vw;
+}
+#group{
+    margin-left: 30vw;
+}
+.books img{
+ width: 15vw;
+ height: 45vh;
+ transition: 0.3s ease-in-out;
+}
+.books :hover{
+    transform: scale(1.1);
+}
+footer{
+    border: none;
+    width: 100vw;
+    background-color: black;
+    margin-top: 10vh;
+    padding: 5% 5% 1% 5%;
+    margin-bottom: -7vh;
+}
+footer p{
+    margin-left: 30vw;
+    color: white;
+    margin-top: 5vh;
+}
+.comment input{
+padding:1vw;
+margin-left: 2vw;
+width: 30vw;
+}
+.comment{
+    color: white;
+    margin-left: 5vw;
+}
+
+button{
+margin-left: 20vw;
+margin-top: 5vh;
+padding: 1vw 2vw;
+background-color: rgb(255, 190, 69);
+border-radius: 15px;
+cursor: pointer;
+}
+
+
+
+
+
+
+@media only screen and (max-width:750px) {
+    .container{
+        width: 90;
+    }
+    #background_image{
+        height: 150vh;
+        width: 90vw;
+        opacity: 0.1;
+        margin-left: 7vw;
+        margin-top: 5vh;
+    }
+  h1{
+    font-size: 1.5em;
+  }
+    .welcome{
+        background-color: #192A56;
+        width: 90vw;
+        height: 270vw;
+        display: flex;
+        border: none;
+        margin-left: 2vw;
+        gap: 6vw;
+        margin-top: -150vh;
+        border-radius: 20px 20px 0px 0px;
+    
+    
+    }
+    .welcome img{
+        height: 50vh;
+    }
+    .author{
+        display: block;
+    }
+    .author img{
+        width: 70vw;
+        height: 50vh;
+    }
+    .trevor{
+        width: 90vw;
+    }
+    .rename{
+        display: block;
+    }
+    .text{
+        font-size: 1em;
+        width: 90vw;
+    }
+    .pictures img{
+        width:50vw
+    }
+    .review{
+        display: block;
+    }
+    .review img{
+        width: 50vw;
+        height: 50vh;
+    }
+    .book_review{
+        width: 70vw;
+    }
+    #peak{
+        font-size: 1em;
+        margin-left: 0vw;
+    }
+    .about_book{
+        gap: 1vw;
+        
+    }
+    #page{
+        margin-left: 1vw;
+    }
+    .about_book img{
+        width:20vw
+    }
+    .trusted_by_best img{
+        display: none;
+    }
+  .trusted_by_best{
+    width: 86vw;
+    margin-left: 5vw;
+  }
+  .trusted_by_best p{
+    margin-left: -11vw;
+  }
+.logos{
+    gap:15vw;
+}
+.icons{
+    display: block;
+}
+.books{
+    flex-direction: column;
+    margin-left: 5vw;
+}
+.books img{
+    width: 70vw;
+}
+}
+
+
+@media only screen and (min-width:751px) and (max-width:999px) {
+    .author{
+        display: block;
+    }
+    .author img{
+        width: 70vw;
+        height: 90vh;
+    }
+    .trevor{
+        width: 90vw;
+    }
+    .rename{
+        display: block;
+    }
+    .text{
+        font-size: 1em;
+        width: 90vw;
+    }
+    .welcome{
+        height: 120vh;
+    }
+    .pictures img{
+        width:50vw
+    }
+    .review{
+        display: block;
+    }
+    .review img{
+        width: 50vw;
+        height: 50vh;
+    }
+    .book_review{
+        width: 70vw;
+    }
+    #peak{
+        font-size: 1em;
+        margin-left: 0vw;
+    }
+    .about_book{
+        gap: 1vw;
+        
+    }
+    #page{
+        margin-left: 1vw;
+    }
+    .about_book img{
+        width:20vw
+    }
+    .books img{
+        width: 60vw;
+    }
+    .books{
+        flex-direction: column;
+        margin-left: 5vw;
+    }
+    .trusted_by_best{
+        
+    }
+.logos{
+    margin-left: 5vw;
+}
+
+}
+
+@media only screen and (min-width:1000px) and (max-width:1300px) {
+    .review img{
+        width: 50vw;
+        height: 50vh;
+    }
+
 }
