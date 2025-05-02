@@ -16,22 +16,33 @@ body {
     margin-top: 5vh;
     margin-left: 5vw;
 }
-
+.buttons{
+    margin-top: -10vh;
+    z-index: 1;
+}
+.book{
+    transition:1s ease-in-out;
+}
+.book img:hover{
+    border:transparent;
+    cursor: pointer;
+  transform: scale(1.1em);
+  }
 .reading img {
     position: relative;
     overflow: hidden;
     width: 8vw;
     height: 25vh;
     z-index: -1;
-    /* transition:1s ease-out; */
+    transition:1s ease-in-out;
 
 }
 
-/* .reading img:hover{
+.reading img:hover{
   border:transparent;
   cursor: pointer;
-transform: scale(1.1);
-} */
+transform: scale(1.1em);
+}
 .buttons {
     color: white;
     margin-top: -20vh;

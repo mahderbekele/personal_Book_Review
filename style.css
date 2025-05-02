@@ -12,9 +12,21 @@ body{
     position: relative;
     border: none;
     background-color: antiquewhite;
-    margin-top: -5vh;
-  
+ margin-top: -5vh;
 
+}
+.buttons{
+   margin-left: 0vh;
+   display: flex;
+   gap: 5vw;
+   margin-top: 5vh;
+   z-index: 1;
+
+}
+.buttons a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
 }
 #background_image{
     position: relative;
@@ -200,7 +212,6 @@ hr{
     height: 20vh;
     display: flex;
     border: none;
-    /* margin-left: 7vw; */
  margin-top: -20vh;
     gap: 1vw;
     
@@ -226,7 +237,7 @@ width: 50vw;
 }
 .books{
     display: flex;
-    margin-left: 30vw;
+    margin-left: 17vw;
     gap: 10vw;
 }
 #group{
@@ -239,6 +250,26 @@ width: 50vw;
 }
 .books :hover{
     transform: scale(1.1);
+}
+.buttons a {
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+    border: none;
+    background-color: rgba(97, 97, 97, 0.288);
+    padding: 2% 4%;
+    border-radius: 20px;
+    box-shadow: 15px 18px 10px -8px rgb(156, 145, 145);
+
+}
+.buttons{
+    border: none;
+    text-align: center;
+    padding: 1%;
+    display:flex ;
+    gap: 14vw;
+    margin-left: 17vw;
+
 }
 footer{
     border: none;
@@ -288,6 +319,9 @@ cursor: pointer;
         margin-left: 7vw;
         margin-top: 5vh;
     }
+    .buttons{
+        display: none;
+    }
   h1{
     font-size: 1.5em;
   }
@@ -295,7 +329,6 @@ cursor: pointer;
         background-color: #192A56;
         width: 90vw;
         height: 270vw;
-        display: flex;
         border: none;
         margin-left: 2vw;
         gap: 6vw;
@@ -356,13 +389,14 @@ cursor: pointer;
     }
   .trusted_by_best{
     width: 86vw;
-    margin-left: 5vw;
+    margin-left: 2vw;
   }
   .trusted_by_best p{
     margin-left: -11vw;
   }
 .logos{
     gap:15vw;
+    margin-left: 10vw;
 }
 .icons{
     display: block;
@@ -374,6 +408,7 @@ cursor: pointer;
 .books img{
     width: 70vw;
 }
+
 }
 
 
@@ -424,6 +459,9 @@ cursor: pointer;
     }
     .about_book img{
         width:20vw
+    }
+    .buttons{
+        display: none;
     }
     .books img{
         width: 60vw;
