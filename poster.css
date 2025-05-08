@@ -7,8 +7,8 @@ body{
 img{
     position: relative;
     width: 100vw;
-    height: 270vh;
-    margin-top: -45vh;
+    height: 250vh;
+    margin-top: -80vh;
     z-index: -1;
 }
 .sidenav {
